@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    position: absolute;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+}
+
+.box2 {
+    position: absolute;
+    display: inline-block;
+    left: 400px;
+    width: 400px;
+    height: 400px;
+    background-color: blanchedalmond;
+}
+
+@media screen and (max-width: 800px) {
+    
+    .box2 {
+        
+        left: 0;
+        top: 400px;
+    }
+  }
