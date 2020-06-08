@@ -1,0 +1,202 @@
+header nav ul li, main nav ul h2, main aside ul h2, article div h2, footer div {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+main nav ul li, main aside ul li, article div p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+footer {
+  border: solid 1px #000;
+  margin: 1px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 2px solid #000;
+}
+
+header img {
+  width: 60px;
+  height: 60px;
+}
+
+header nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+header nav ul li {
+  padding: 5px 20px;
+  font-size: 1em;
+  border-radius: 20%;
+}
+
+header nav ul li:hover {
+  background-color: #1f579b;
+  color: white;
+}
+
+main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+main nav {
+  background-color: #6087b8;
+  width: 20%;
+  border-right: 2px solid #000;
+}
+
+main nav ul {
+  margin: 20px auto;
+  text-align: center;
+  list-style: none;
+}
+
+main nav ul h2 {
+  font-size: 1.5em;
+  padding-bottom: 10px;
+  -webkit-text-decoration: underline white;
+          text-decoration: underline white;
+}
+
+main nav ul li {
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+main section {
+  background-color: #dbe4ef;
+  width: 80%;
+}
+
+main aside {
+  background-color: #6087b8;
+  width: 20%;
+  border-left: 2px solid #000;
+}
+
+main aside ul {
+  margin: 20px auto;
+  text-align: center;
+  list-style: none;
+}
+
+main aside ul h2 {
+  font-size: 1.5em;
+  padding-bottom: 10px;
+  -webkit-text-decoration: underline white;
+          text-decoration: underline white;
+}
+
+main aside ul li {
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+main section article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 10px 10px 20px;
+}
+
+article img {
+  margin-right: 20px;
+  width: 200px;
+  height: 250px;
+}
+
+article div h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+article div p {
+  font-size: 1.1em;
+  text-align: justify;
+}
+
+footer {
+  width: 100%;
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 1em;
+  background-color: #dbe4ef;
+}
+
+@media screen and (max-width: 800px) {
+  main {
+    background-color: black;
+    font-size: 18px;
+  }
+  aside {
+    /* visibility: hidden; */
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

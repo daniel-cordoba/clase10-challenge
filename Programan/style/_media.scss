@@ -1,0 +1,12 @@
+@media screen and (max-width: 800px) {
+
+    main{
+        background-color: $bg;
+        font-size: 18px;
+    }
+
+    aside{
+        /* visibility: hidden; */
+        display: none;
+    }
+}
